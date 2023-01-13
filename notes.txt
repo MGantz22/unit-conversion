@@ -1,0 +1,14 @@
+Game: Ready Player One
+
+Race Options: Human, Orc, Elf
+
+Class Options: Warrior, Mage, Rogue
+
+Prof
+Events: 
+mouseOver 
+onClick
+
+>G then 
+if lbs selected devide by 453
+ else 

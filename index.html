@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Unit Conversions</title>
+</head>
+<body>
+  <div class="Heading">
+    <h1>Chef Conversion Table</h1>
+    <p>Use the table below to convert your measuring units</p>
+  </div>
+  <div>
+    <h3>Enter the number that you would like to be converted:</h3>
+    <input id="start-weight" type="text" name="start-weight">
+    <label for="start-weight"></label>
+    <form id="radio-form">
+      <input type="radio" name="units" value="Ounces" id="oz" checked>
+      <label for="oz">Ounces</label>
+      <input type="radio" name="units" value="gram" id="g">
+      <label for="g">Grams</label>
+      <input type="radio" name="units" value="Pounds" id="lbs">
+      <label for="lbs">Pounds</label>
+    </form>
+    <h3>Please select the units you would like to convert to:</h3>
+  </div>
+    <form id="radio-form">
+      <p id="error-message" class="hidden">BY GOD, FILL IT OUT RIGHT.</p>
+      <input type="radio" name="units" value="Ounces" id="oz" checked>
+      <label for="oz">Ounces</label>
+      <input type="radio" name="units" value="gram" id="g">
+      <label for="g">Grams</label>
+      <input type="radio" name="units" value="Pounds" id="lbs">
+      <label for="lbs">Pounds</label>
+      <button type="submit">Crem de la crem</button>
+    </form>
+  </div>
+  <div id="g" class="hidden">
+    <p>This is your weight in grams:</p>
+  </div>
+  <div id="oz" class="hidden">
+    <p>This is your weight in Ounces:</p>
+  </div>
+  <div id="lbs" class="hidden">
+    <p>This is your weight in Pounds:</p>
+  </div>
+</body>
+</html>
